@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const resultElement = document.getElementById('result');
             const state = data.region_code;
             const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-            if (state === 'IL' or "Chicago" in timezone) {
+            if (state === 'IL' || timezone.includes("Chicago")) {
                 resultElement.textContent = 'You are in Illinois!';
             } else {
                 resultElement.textContent = 'You are not in Illinois.';
