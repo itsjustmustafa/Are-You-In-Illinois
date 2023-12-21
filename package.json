@@ -1,0 +1,12 @@
+{
+  "name": "are-you-in-illinois",
+  "version": "1.0.0",
+  "description": "Checks whether the client is in Illinois and tells them whether or not they are.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mustafa Barodawala",
+  "license": "ISC"
+}
