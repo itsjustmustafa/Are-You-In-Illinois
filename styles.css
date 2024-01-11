@@ -20,3 +20,26 @@ h1 {
 p {
     color: #555;
 }
+
+#github_link {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+#github_link:link {
+    text-decoration: none;
+}
+
+#github_link:visited {
+    text-decoration: none;
+}
+
+#github_link:hover {
+    text-decoration: none;
+}
+
+#github_link:active {
+    text-decoration: none;
+}
