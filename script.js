@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Use a free IP geolocation API to get the user's location based on their IP
     let coolEmojis = ["😎", "🚀", "🔥", "🤘", "🎸", "🕶️", "🌈", "💯", "👾", "🌌", "🎉", "🌟", "🍕", "🍦", "🎮", "🚁"];
-    let selectedEmoji = coolEmojis[Math.floor(Math.random() * coolEmojis.length)];
-    document.getElementById("github_link").innerText = selectedEmoji;
+    let selectedEmojiForGithub = coolEmojis[Math.floor(Math.random() * coolEmojis.length)];
+    let selectedEmojiForLinkedin = coolEmojis[Math.floor(Math.random() * coolEmojis.length)];
+    document.getElementById("github_link").innerText = selectedEmojiForGithub;
+    document.getElementById("linkedin_link").innerText = selectedEmojiForLinkedin;
 
     fetch('https://ipapi.co/json/')
         .then(response => response.json())
